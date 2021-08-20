@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=SandLab
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=numRows\ numCols
+comment2.target=SandLab(int,\ int)
+comment2.text=\r\n\ The\ constructor\ creates\ the\ display\ and\ grid\ and\ named\ elements\r\n\ @param\ numRows\r\n\ @param\ numCols\r\n
+comment3.params=row\ col\ tool
+comment3.target=void\ locationClicked(int,\ int,\ int)
+comment3.text=\r\n\ Upon\ click\ on\ the\ grid,\ set\ the\ location\ to\ the\ selected\ element\ if\ empty\ (or\ set\ to\ empty\ if\ empty\ is\ selected)\r\n\ @param\ row\r\n\ @param\ col\r\n\ @param\ tool\r\n
+comment4.params=
+comment4.target=void\ updateDisplay()
+comment4.text=\r\n\ Copies\ each\ element\ of\ grid\ into\ the\ display\ with\ appropriate\ colors\r\n
+comment5.params=
+comment5.target=void\ step()
+comment5.text=\r\n\ Called\ repeatedly.\ Causes\ a\ random\ pixel\ to\ maybe\ do\ something\ based\ on\ behavioral\ restrictions.\r\n\ Metal\ doesn't\ move\ ever\ unless\ replaced\ with\ Empty.\ Sand\ falls\ through\ everythings\ except\ Metal.\r\n\ Water\ falls\ through\ everything\ besides\ Sand\ and\ Metal.\ Oil\ only\ falls\ through\ Empty\ and\ Cloud.\r\n\ Cloud\ rises\ until\ it\ hits\ the\ top\ or\ Metal\ and\ then\ turns\ into\ Water.\r\n\ Water\ and\ Oil\ randomly\ shift\ left\ or\ right\ when\ not\ falling.\ This\ can't\ move\ Metal\ and\ only\ sometimes\ moves\ Sand\ (erosion).\r\n\ Fire\ turns\ any\ adjacent\ oil\ into\ more\ fire,\ spreading,\ and\ turns\ adjacent\ water\ in\ steam\ (cloud).\ Otherwise\ it\ disappears.\r\n
+comment6.params=
+comment6.target=void\ run()
+comment6.text=\r\n\ Infite\ loop\ that\ calls\ step()\ and\ updates\ display\ and\ tests\ for\ mouse\ clicks\r\n
+numComments=7
